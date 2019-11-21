@@ -1,0 +1,88 @@
+#contenedorA {
+    border: 1px solid green;
+    border-bottom: 1px solid gray;
+}
+
+#contenedorB {
+    border: 1px solid red;
+    width: 300px;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#contenedorC {
+    border: 1px solid yellow;
+    width: 610px;
+    float: right;
+    padding: 15px;
+    border-left: 1px;
+}
+
+#contenedorD {
+    border: 1px solid blue;
+    padding: 20px;
+}
+
+body {
+    /* padding: 0px, auto; */
+    width: 960px;
+}
+
+header {
+    padding-bottom: 20px;
+    border: 1px;
+}
+
+div>nav>ul {
+    list-style: none;
+}
+
+div>section>ul {
+    list-style: none;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+#background-entradas {
+    background-image: url("../img/foto-entradas.jpg");
+    width: 300px;
+    height: 203px;
+    float: right;
+}
+
+#background-pppales {
+    background-image: url("../img/foto-ppal.jpg");
+    width: 300px;
+    height: 203px;
+    float: right;
+}
+
+#background-postres {
+    background-image: url("../img/foto-postre.jpg");
+    width: 300px;
+    height: 203px;
+    float: right;
+}
+
+.floatright {
+    float: right;
+    /* padding-top: 10%; */
+}
+
+.floatleft {
+    float: left;
+}
+
+footer {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border-top: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 40px;
+    box-sizing: border-box;
+}

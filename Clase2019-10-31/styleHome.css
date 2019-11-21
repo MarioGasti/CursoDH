@@ -1,0 +1,27 @@
+#backgroud {
+    background: url("C:/Users/MarioGastonFerrufino/Desktop/FullStackDH/Clase31-10/Clase 1 - Práctica 2/img/emilia-home.jpg") no-repeat top right;
+    background-size: 970px 700px;
+    margin: 0px 0px 0px 50px;
+    /* background-position-x: ; */
+    /* ba */
+}
+
+h1 {
+    font-family: Raleway;
+    size: 25px;
+    font-style: bold;
+}
+
+.center {
+    padding: 25% 0;
+}
+
+.right {
+    padding: 25%;
+}
+
+.sinItem {
+    list-style: none;
+    padding: top left;
+    text-align: 0px;
+}
